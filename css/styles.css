@@ -235,6 +235,19 @@ body {
   color: var(--primary-text-color);
 }
 
+.feature-background {
+  background-color: #f5f4fa;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+}
+
 /* job section */
 
 .job-section {
