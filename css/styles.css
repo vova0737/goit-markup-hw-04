@@ -14,6 +14,10 @@
   text-decoration: none;
 }
 
+.flex {
+  display: flex;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -443,6 +447,30 @@ body {
   color: var(--active-link-color);
 }
 
+.footer-heading {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.footer-socials-bckgr {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon .footer-icon {
+  fill: #ffffff;
+}
+
+.footer-socials {
+  margin-left: 70px;
+  /* padding-top: 72px; */
+  padding-bottom: 100px;
+}
+
 /* portfolio  */
 
 .portfolio-switcher {
@@ -487,6 +515,8 @@ body {
   margin: 0px; 
 }
 
+/* worx */
+
 .site-name {
   font-weight: bold;
   font-size: 18px;
@@ -507,6 +537,11 @@ body {
 .site-card {
   width: calc((100% - 30px * 2) / 3);
   border: 1px solid #eeeeee;
+}
+
+.site-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+  0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .site-card:not(:nth-child(3n)) {
