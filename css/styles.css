@@ -128,7 +128,6 @@ body {
   color: var(--active-link-color);
 }
 
-/* .contacts-item .icon-mail { */
 .icon-mail {
   width: 16px;
   height: 12px;
@@ -284,6 +283,17 @@ body {
   background: #f5f4fa;
 }
 
+.team-heading {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
 .team-worker {
   display: flex;
   padding-left: 0;
@@ -304,7 +314,11 @@ body {
 
 .team-list {
   text-align: center;
+  padding-bottom: 30px;
   background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list:not(:last-child) {
@@ -312,11 +326,85 @@ body {
 }
 
 .team-function {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;  
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.socials-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socials-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--active-link-color);
+}
+
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+  fill: #FFFFFF;
+}
+
+/* clients section */
+
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-link {
+  color: #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--active-link-color);
+}
+
+.clients-link:hover .clients-icon {
+  fill: var(--active-link-color);
 }
 
 /* footer */
